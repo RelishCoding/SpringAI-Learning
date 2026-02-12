@@ -6,7 +6,7 @@ spring:
     name: spring-ai-function-demo
   ai:
     openai:
-      api-key: xxxxxxxxxxxxxxxxxxxx
+      api-key: ${SPRINGAI_LEARNING_DEEPSEEK_API_KEY}
       base-url: https://api.deepseek.com
       chat:
         options:
