@@ -25,7 +25,8 @@ public class FunctionController {
                         请讲中文。
                         """)
                 .user(userMessage)
-                .functions("addOperation", "mulOperation")
+                // .functions("addOperation", "mulOperation")
+                .toolNames("addOperation", "mulOperation")
                 .call()
                 .content();
     }
