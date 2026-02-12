@@ -1,0 +1,9 @@
+server:
+  port: 8899
+
+spring:
+  application:
+    name: spring-ai-alibaba-image-audio-demo
+  ai:
+    dashscope:
+      api-key: ${AI_DASHSCOPE_API_KEY} # 这里会读取环境变量
